@@ -1,0 +1,4 @@
+flask
+anthropic
+huggingface_hub
+pdfplumber

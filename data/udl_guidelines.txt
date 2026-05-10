@@ -1,0 +1,71 @@
+UDL Guidelines 3.0 — CAST
+Source: CAST (2024). Universal Design for Learning Guidelines version 3.0
+udlguidelines.cast.org | © CAST, Inc. 2024
+
+Goal: Learner agency that is purposeful & reflective, resourceful & authentic, strategic & action-oriented.
+
+================================================================================
+
+I. Design Multiple Means of Engagement
+
+  Design Options for Access: Welcoming Interests & Identities (7)
+    7.1 - Optimize choice and autonomy
+    7.2 - Optimize relevance, value, and authenticity
+    7.3 - Nurture joy and play
+    7.4 - Address biases, threats, and distractions
+
+  Design Options for Support: Sustaining Effort & Persistence (8)
+    8.1 - Clarify the meaning and purpose of goals
+    8.2 - Optimize challenge and support
+    8.3 - Foster collaboration, interdependence, and collective learning
+    8.4 - Foster belonging and community
+    8.5 - Offer action-oriented feedback
+
+  Design Options for Executive Function: Emotional Capacity (9)
+    9.1 - Recognize expectations, beliefs, and motivations
+    9.2 - Develop awareness of self and others
+    9.3 - Promote individual and collective reflection
+    9.4 - Cultivate empathy and restorative practices
+
+================================================================================
+
+II. Design Multiple Means of Representation
+
+  Design Options for Access: Perception (1)
+    1.1 - Support opportunities to customize the display of information
+    1.2 - Support multiple ways to perceive information
+    1.3 - Represent a diversity of perspectives and identities in authentic ways
+
+  Design Options for Support: Language & Symbols (2)
+    2.1 - Clarify vocabulary, symbols, and language structures
+    2.2 - Support decoding of text, mathematical notation, and symbols
+    2.3 - Cultivate understanding and respect across languages and dialects
+    2.4 - Address biases in the use of language and symbols
+    2.5 - Illustrate through multiple media
+
+  Design Options for Executive Function: Building Knowledge (3)
+    3.1 - Connect prior knowledge to new learning
+    3.2 - Highlight and explore patterns, critical features, big ideas, and relationships
+    3.3 - Cultivate multiple ways of knowing and making meaning
+    3.4 - Maximize transfer and generalization
+
+================================================================================
+
+III. Design Multiple Means of Action & Expression
+
+  Design Options for Access: Interaction (4)
+    4.1 - Vary and honor the methods for response, navigation, and movement
+    4.2 - Optimize access to accessible materials and assistive and accessible technologies and tools
+
+  Design Options for Support: Expression & Communication (5)
+    5.1 - Use multiple media for communication
+    5.2 - Use multiple tools for construction, composition, and creativity
+    5.3 - Build fluencies with graduated support for practice and performance
+    5.4 - Address biases related to modes of expression and communication
+
+  Design Options for Executive Function: Strategy Development (6)
+    6.1 - Set meaningful goals
+    6.2 - Anticipate and plan for challenges
+    6.3 - Organize information and resources
+    6.4 - Enhance capacity for monitoring progress
+    6.5 - Challenge exclusionary practices

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waypoint Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+  </head>
+  <body>
+    <div class="card">
+      <h1 id="main-heading">Modified Action Plan</h1>
+      <p class="subtitle" id="main-subtitle">Upload documents to generate a modified plan</p>
+
+      <div id="error" class="error hidden"></div>
+
+      <form id="upload-form">
+        <div class="field">
+          <label for="iep">IEP Document (PDF)</label>
+          <input type="file" id="iep" name="iep" accept=".pdf" required>
+        </div>
+        <div class="field">
+          <label for="lesson">Lesson Plan (PDF)</label>
+          <input type="file" id="lesson" name="lesson" accept=".pdf" required>
+        </div>
+        <button type="submit">Generate Action Plan</button>
+      </form>
+
+      <div id="spinner" class="hidden">
+        <div class="spinner-icon"></div>
+        <p class="spinner-label">Analyzing IEP and Lesson Plan to produce Modified Action Plan</p>
+      </div>
+
+      <div id="result" class="hidden">
+        <div id="result-body"></div>
+
+        <div class="debug-drawer">
+          <button class="debug-toggle" id="debug-toggle" aria-expanded="false">
+            <span>Debug</span>
+            <svg class="debug-arrow" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0l5 6 5-6z" fill="currentColor"/>
+            </svg>
+          </button>
+          <pre id="debug-json" class="hidden"></pre>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </body>
+</html>

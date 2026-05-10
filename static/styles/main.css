@@ -1,0 +1,260 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: #f5f3ee;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 960px;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  color: #1a1a1a;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 2rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.field {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+input[type="file"] {
+  width: 100%;
+  font-size: 0.875rem;
+  color: #333;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+  background: #f5f3ee;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  margin-right: 0.75rem;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #e8e5df;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background: #333;
+}
+
+.error {
+  font-size: 0.8rem;
+  color: #c0392b;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+
+.spinner-icon {
+  width: 28px;
+  height: 28px;
+  border: 2px solid #ddd;
+  border-top-color: #1a1a1a;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner-label {
+  font-size: 0.8rem;
+  color: #888;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* Result sections */
+
+.result-section {
+  margin-top: 2rem;
+}
+
+.result-section h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.plan-list {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-item {
+  display: flex;
+  gap: 0.875rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f5f3ee;
+}
+
+.plan-item:last-child {
+  border-bottom: none;
+}
+
+.plan-icon {
+  font-size: 1rem;
+  color: #2e7d32;
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+}
+
+.eval-icon {
+  color: #1565c0;
+}
+
+.plan-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.plan-action {
+  font-size: 0.9rem;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+.plan-ref {
+  font-size: 0.75rem;
+  color: #888;
+  line-height: 1.4;
+}
+
+.ref-label {
+  display: inline-block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #fff;
+  background: #1a1a1a; /* #bbb */
+  border-radius: 2px;
+  padding: 0.1rem 0.35rem;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.result-section:first-child .ref-label {
+  background: #2e7d32;
+}
+
+/* Debug drawer */
+
+.debug-drawer {
+  margin-top: 2.5rem;
+  border-top: 1px solid #eee;
+  padding-top: 0.75rem;
+}
+
+.debug-toggle {
+  width: auto;
+  background: none;
+  border: none;
+  color: #bbb;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.debug-toggle:hover {
+  color: #888;
+  background: none;
+}
+
+.debug-arrow {
+  width: 8px;
+  height: 8px;
+  transition: transform 0.2s ease;
+}
+
+.debug-toggle.open .debug-arrow {
+  transform: rotate(180deg);
+}
+
+#debug-json {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: #555;
+  background: #f5f3ee;
+  padding: 1rem;
+  border-radius: 2px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
