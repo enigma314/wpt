@@ -9,7 +9,7 @@ OLLAMA_URL = "http://localhost:11434/api/chat"
 
 class OllamaService(ModelService):
     def __init__(self):
-        self.model = "qwen2.5"
+        self.model = "qwen3:8b"
 
     def _extract_text(self, data):
         with pdfplumber.open(io.BytesIO(data)) as pdf:

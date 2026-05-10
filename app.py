@@ -23,6 +23,7 @@ PROMPT = f"""
     You are an expert special education consultant.
     Review the student IEP and lesson plan provided.
     The IEP will contain the student's full name, extract it.
+    Use student's first name in output where necessary.
     The lesson will contain identification of the lesson topic, extract it.
 
     The IEP will contain areas that the student needs accommodation for.
@@ -64,7 +65,8 @@ PROMPT = f"""
     Do NOT make generic recommendations. Every item must be grounded in
     both the IEP and the lesson plan. The priority should be on making
     recommendations based on the IEP for this specific lesson plan only
-    and should not make reference to other lessons.
+    and should not make reference to other lessons but ensure the entire
+    lesson plan is reviewed for opportunities.
 
     Do not wrap the JSON in markdown code fences or backticks.
     No other text, just the JSON.

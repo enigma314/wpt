@@ -14,10 +14,12 @@ export WPT_HF_API_KEY="hf_..."
 
 WPT_MODEL_PROVIDER can be "CLAUDE", "HF", or "OLLAMA". Recommendation: "OLLAMA"
 
-Most testing was done with ollama running qwen3:14b
+Most testing was done with ollama running qwen2.5
+Latest testing done with ollama running qwen3:8b
 
 ```
-ollama run qwen3:14b
+ollama serve
+ollama pull qwen3:8b
 
 git clone ...
 cd wpt
