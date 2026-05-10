@@ -38,11 +38,6 @@ PROMPT = f"""
     - the specific IEP goal or section it is drawn from
     - the specific part of the lesson plan it applies to
 
-    All modifications should adhere to and take advantage of the following
-    UDL (Universal Design for Learning) guidelines where applicable:
-
-    {udl_guidelines}
-
     The resulting JSON should be:
     {{
       "student_name": <student full name from IEP>,
